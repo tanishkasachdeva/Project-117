@@ -1,0 +1,68 @@
+.heading
+{
+    background: cyan;
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px teal;
+}
+
+.heading_div
+{
+    background: pink !important;
+    float: none;
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 5px 5px 5px violet;
+} 
+
+.heading_div2
+{
+    font-size: 18px;
+    background: violet
+}
+
+.result_para_tag
+{
+    box-shadow: 5px 5px 5px teal ;
+    font-size: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example
+{
+    from{box-shadow: 5px 5px 5px cyan;}
+    to{box-shadow: 5px 5px 5px violet;}
+}
+
+.copy_right_footer
+{
+    position: fixed;
+    color: violet;
+    background-color: cyan;
+    line-height: 3;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+canvas
+{
+    border:  5px solid white;
+    border-radius: 20px;
+    margin-top: 150px;
+    box-shadow: 5px 5px 5px cyan;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example
+{
+    from{box-shadow: 10px 10px 10px cyan;}
+    to{box-shadow: 10px 10px 10px violet;}
+}
